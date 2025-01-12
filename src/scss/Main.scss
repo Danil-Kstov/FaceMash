@@ -1,0 +1,27 @@
+$common-width: 0;
+
+.main{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  &__title{
+    display: inline-block;
+    width: auto;
+  }
+
+  &__cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  &__skip{
+    width: var(--common-width);
+    height: 2rem;
+  }
+}
